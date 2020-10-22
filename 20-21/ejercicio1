@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class ejercicio1 {
+ public static void main(String[] args) {
+  
+  Scanner s = new Scanner(System.in);
+  
+  System.out.print("introduce dos números separados por espacio ");
+  
+  double x = s.nextInt();
+  double y = s.nextInt); 
+  
+  double mult;
+  
+  if (y!=0){
+    mult = x%y;
+    System.out.println("el resultado es: " + mult);
+    
+  } else {
+    System.out.println("division entre cero");
+  }
+  System.out.print("hasta la próxima");
+  
+  
+ }
+}
